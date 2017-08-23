@@ -430,6 +430,12 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   float: left;
+   background-position: 50% 50%;
+   background-size: cover;
+   width: 250px;
+   height: 250px;
+   margin: 2% 2% 2% 2%;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -560,7 +566,6 @@ ul#nav li.current a { color: #F06000; }
   padding-bottom: 2%;
   margin: auto;
   display: block;
-
 }
 
 
